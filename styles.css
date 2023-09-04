@@ -1,0 +1,9 @@
+/* css styles */
+
+/* Fonts */
+@import "https://www.nerdfonts.com/assets/css/webfont.css";
+@import "https://code.cdn.mozilla.net/fonts/fira.css";
+
+.skills-row {
+    text-align: center;
+}

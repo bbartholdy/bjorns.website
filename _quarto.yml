@@ -1,0 +1,34 @@
+project:
+  type: website
+
+website:
+  title: "Bjørn's Site"
+  site-url: https://bjorns.site
+  back-to-top-navigation: true
+  page-footer:
+    left: "Powered by Quarto and Netlify"
+    center:  "Copyright, Bjørn Peare Bartholdy, 2023"
+    right: 
+      - icon: github
+        href: https://github.com/bbartholdy/bjorns.website
+        aria-label: GitHub
+      - icon: mastodon
+        href: https://fediscience.org/@bjorn
+        aria-label: Mastodon
+  sidebar:
+    search: false
+    style: floating
+    contents:
+      - text: projects
+        url: index.html#projects-section
+      - text: publications
+        url: index.html#publications-section
+
+format:
+  html:
+    theme:
+      dark: [dark.scss]
+      light: [not-dark.scss]
+    css: styles.css
+    bibliography: publications.bib
+    csl: apa-chron.csl # modified version of APA style that orders articles chronologically

@@ -1,0 +1,31 @@
+/*-- scss:defaults --*/
+
+@import 'dark.scss';
+
+$body-bg: $font-color;
+$body-color: $background;
+$sidebar-bg: $font-color;
+$sidebar-fg: white;
+$sidebar-hl: $background;
+$link-color: #533e61;
+
+// Listing elements
+$grid-item-bg: $font-color;
+$border-color: $background;
+
+/*-- scss:rules --*/
+
+.quarto-grid-item {
+    background-color: $grid-item-bg;
+    border: 1px solid $border-color !important;
+}
+
+.about-link {
+    border-color: $background !important;
+    color: $background !important;
+}
+
+.about-link:hover {
+    border-color: $link-color !important;
+    color: $link-color !important;
+}

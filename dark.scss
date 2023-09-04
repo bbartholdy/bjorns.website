@@ -1,0 +1,26 @@
+/*-- scss:defaults --*/
+
+$background: #03040c;
+$font-color: #63969b;
+
+$body-color: $font-color;
+$body-bg: $background;
+$sidebar-bg: $background;
+$sidebar-fg: white;
+$sidebar-hl: $font-color;
+$link-color: #84639b;
+
+$font-family-sans-serif: "Fira Sans";
+$font-family-monospace: "Fira Mono";
+
+// Listing elements
+$grid-item-bg: $background;
+$border-color: $font-color;
+
+/*-- scss:rules --*/
+
+.quarto-grid-item {
+    background-color: $grid-item-bg;
+    border: 1px solid $border-color !important;
+}
+

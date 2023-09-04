@@ -1,0 +1,73 @@
+---
+title: "Bjørn Peare Bartholdy"
+about:
+  id: hero-heading
+  template: jolla
+  image: "images/avatar.jpg"
+  links: 
+    - icon: github
+      href: https://github.com/bbartholdy
+      text: GitHub
+      aria-label: GitHub
+    - icon: mastodon
+      href: https://fediscience.org/@bjorn
+      text: Mastodon
+      aria-label: Mastodon
+    - text: '{{< ai orcid >}} ORCiD'
+      href: https://orcid.org/0000-0003-3985-1016
+      aria-label: ORCiD
+    - text: '{{< ai osf >}} OSF'
+      href: https://osf.io/2cyj7/
+      aria-label: Open Science Framework
+listing: 
+  type: grid
+  id: projects
+  grid-columns: 2
+  grid-item-border: false
+  fields: 
+    - image
+    - title
+    - description
+  contents: 
+    - projects/**/index.qmd
+    - projects/external-projects.yaml
+---
+
+:::{#hero-heading}
+
+I'm a PhD student in Archaeology working to learn more about what people
+ate in the past, using methods from archaeology and oral microbiology.
+I'm dedicated to keeping my research and findings accessible, transparent,
+and reproducible. I enjoy exploring different ways to communicate my findings,
+in addition to the more conventional publishing methods.
+
+I also work as a Data Steward at TU Delft, where I support researchers in research
+data management and Open Science. I provide trainings on these topics, as well as
+participating in Data Carpentry and Software Carpentry workshops on R, git, and unix.
+
+
+::: {.skills-row}
+
+<i class="nf nf-md-language_r" style="font-size: 1.8em;"></i>
+<i class="nf nf-md-git" style="font-size: 1.8em;"></i>
+<i class="nf nf-md-bash" style="font-size: 1.8em;"></i>
+<i class="nf nf-md-language_markdown" style="font-size: 1.8em;"></i>
+
+:::
+
+:::
+
+## Projects {#projects-section}
+
+::: {#projects}
+:::
+
+## Publications {#publications-section}
+
+---
+nocite: |
+  @*
+---
+
+::: {#refs}
+:::

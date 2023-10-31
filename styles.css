@@ -5,5 +5,17 @@
 @import "https://code.cdn.mozilla.net/fonts/fira.css";
 
 .skills-row {
-    text-align: center;
+    text-align: right;
+}
+
+.subtitle {
+    text-align: right !important;
+}
+
+#hero-heading {
+    text-align: justify;
+}
+
+#word {
+    text-align: right;
 }

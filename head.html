@@ -1,0 +1,17 @@
+<script>
+    // from ChatGPT
+document.addEventListener("DOMContentLoaded", function() {
+    const words = ["Bioarchaeologist", "Data Steward"];
+    const wordElement = document.getElementById("word");
+    let currentWordIndex = 0;
+
+    function updateWord() {
+        wordElement.textContent = words[currentWordIndex];
+        currentWordIndex = (currentWordIndex + 1) % words.length;
+    }
+
+    updateWord();
+    setInterval(updateWord, 2000);
+});
+</script>
+    

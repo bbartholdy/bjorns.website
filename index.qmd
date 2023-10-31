@@ -1,5 +1,6 @@
 ---
 title: "Bjørn Peare Bartholdy"
+include-in-header: head.html
 about:
   id: hero-heading
   template: jolla
@@ -19,6 +20,10 @@ about:
     - text: '{{< ai osf >}} OSF'
       href: https://osf.io/2cyj7/
       aria-label: Open Science Framework
+    - icon: linkedin
+      href: https://www.linkedin.com/in/bjorn-peare-bartholdy/
+      text: LinkedIn
+      aria-label: LinkedIn
 listing: 
   type: grid
   id: projects
@@ -35,6 +40,8 @@ listing:
 
 :::{#hero-heading}
 
+<h3 class=subtitle><span id="word"></span> ~~Extra~~ordinaire</h3>
+
 I'm a PhD student in Archaeology working to learn more about what people
 ate in the past, using methods from archaeology and oral microbiology.
 I'm dedicated to keeping my research and findings accessible, transparent,
@@ -46,14 +53,6 @@ data management and Open Science. I provide trainings on these topics, as well a
 participating in Data Carpentry and Software Carpentry workshops on R, git, and unix.
 
 
-::: {.skills-row}
-
-<i class="nf nf-md-language_r" style="font-size: 1.8em;"></i>
-<i class="nf nf-md-git" style="font-size: 1.8em;"></i>
-<i class="nf nf-md-bash" style="font-size: 1.8em;"></i>
-<i class="nf nf-md-language_markdown" style="font-size: 1.8em;"></i>
-
-:::
 
 :::
 
@@ -71,3 +70,11 @@ nocite: |
 
 ::: {#refs}
 :::
+
+## Education {#education-section}
+
+(current) PhD Bioarchaeology | Leiden University
+
+MSc Osteoarchaeology | Leiden University
+
+BSc Physical Anthropology | University of Calgary

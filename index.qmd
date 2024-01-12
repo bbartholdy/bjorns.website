@@ -52,9 +52,13 @@ I also work as a Data Steward at TU Delft, where I support researchers in resear
 data management and Open Science. I provide trainings on these topics, as well as
 participating in Data Carpentry and Software Carpentry workshops on R, git, and unix.
 
-
-
 :::
+
+<p style="text-align: center;">
+  <a href="https://webring.archaeo.social/previous?host=bjorns.website">←</a>
+  <a href="https://webring.archaeo.social/">Archaeoring</a> | <a href="https://webring.archaeo.social/random">Random</a>
+  <a href="https://webring.archaeo.social/next?host=bjorns.website">→</a>
+</p>
 
 ## Projects {#projects-section}
 

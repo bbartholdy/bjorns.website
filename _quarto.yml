@@ -18,11 +18,20 @@ website:
   sidebar:
     search: false
     style: floating
+    tools: 
+      - icon: github
+        href: https://github.com/bbartholdy/
+        aria-label: GitHub
+      - icon: mastodon
+        href: https://fediscience.org/@bjorn
+        aria-label: Mastodon
     contents:
       - text: projects
         url: index.html#projects-section
       - text: publications
         url: index.html#publications-section
+      - text: education
+        url: index.html#education-section
 
 format:
   html:

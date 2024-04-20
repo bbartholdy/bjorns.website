@@ -25,17 +25,32 @@ about:
       text: LinkedIn
       aria-label: LinkedIn
 listing: 
-  type: grid
-  id: projects
-  grid-columns: 2
-  grid-item-border: false
-  fields: 
-    - image
-    - title
-    - description
-  contents: 
-    - projects/**/index.qmd
-    - projects/external-projects.yaml
+  - id: academic-projects
+    type: grid
+    grid-columns: 2
+    grid-item-border: false
+    fields: 
+      - image
+      - title
+      - description
+    contents: 
+      - projects/**/index.qmd
+      - projects/external-projects.yaml
+    include: 
+      categories: academic
+  - id: fun-projects
+    type: grid
+    grid-columns: 2
+    grid-item-border: false
+    fields: 
+      - image
+      - title
+      - description
+    contents: 
+      - projects/**/index.qmd
+      - projects/external-projects.yaml
+    include: 
+      categories: fun
 ---
 
 :::{#hero-heading}
@@ -62,7 +77,14 @@ participating in Data Carpentry and Software Carpentry workshops on R, git, and 
 
 ## Projects {#projects-section}
 
-::: {#projects}
+### Academic projects
+
+::: {#academic-projects}
+:::
+
+### Random s**t
+
+::: {#fun-projects}
 :::
 
 ## Publications {#publications-section}

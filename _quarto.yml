@@ -7,7 +7,7 @@ website:
   back-to-top-navigation: true
   page-footer:
     left: "Powered by Quarto and Netlify"
-    center:  "Copyright, Bjørn Peare Bartholdy, 2023"
+    center:  "Redundant 2024, Bjørn Peare Bartholdy"
     right: 
       - icon: github
         href: https://github.com/bbartholdy/bjorns.website

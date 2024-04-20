@@ -4,16 +4,23 @@
     but I am publishing it as I write.
   image: images/endgame-cover.png
   path: https://myphd.bjorns.website
-  categories: [dental calculus, Open Science]
+  categories: [dental calculus, Open Science, academic]
 - title: "teethr"
   description: |
     An R package for tooth stuff.
   path: https://github.com/bbartholdy/teethr
-  categories: [dental, R package]
+  categories: [dental, R package, academic]
 - title: "The Bioarchaeologist's Guide"
   description: |
     A website with resources for bioarchaeologists, with
     content ranging from relevant to highly irrelevant.
   image: images/bioarch-guide.jpg
   path: https://bioarch.guide
-  categories: [bioarchaeology, blog]
+  categories: [bioarchaeology, blog, fun]
+- title: "Keep it Secret (R package)"
+  description: |
+    An R package that generates (and evaluates) random
+    passphrases based on the Lord of the Rings novel.
+  image: https://github.com/bbartholdy/keepitsecret/blob/main/inst/figures/hexsticker.png?raw=true
+  path: https://github.com/bbartholdy/keepitsecret/
+  categories: [R package, fun]

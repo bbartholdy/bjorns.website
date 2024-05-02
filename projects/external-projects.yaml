@@ -17,7 +17,7 @@
   image: images/bioarch-guide.jpg
   path: https://bioarch.guide
   categories: [bioarchaeology, blog, fun]
-- title: "Keep it Secret (R package)"
+- title: "keepitsecret (R package)"
   description: |
     An R package that generates (and evaluates) random
     passphrases based on the Lord of the Rings novel.

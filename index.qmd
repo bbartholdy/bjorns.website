@@ -14,12 +14,15 @@ about:
       href: https://fediscience.org/@bjorn
       text: Mastodon
       aria-label: Mastodon
-    - text: '{{< ai orcid >}} ORCiD'
-      href: https://orcid.org/0000-0003-3985-1016
-      aria-label: ORCiD
     - text: '{{< ai osf >}} OSF'
       href: https://osf.io/2cyj7/
       aria-label: Open Science Framework
+    - text: '{{< fa file-pdf >}} CV'
+      href: /assets/files/cv.pdf
+      aria-label: Curriculum Vitae
+    - text: '{{< ai orcid >}} ORCiD'
+      href: https://orcid.org/0000-0003-3985-1016
+      aria-label: ORCID
     - icon: linkedin
       href: https://www.linkedin.com/in/bjorn-peare-bartholdy/
       text: LinkedIn
@@ -70,8 +73,15 @@ participating in Data Carpentry and Software Carpentry workshops on R, git, and 
 :::
 
 <p style="text-align: center;">
+  <a href="https://webring.archaeo.social/" target="_blank">
+    <img alt="archaeoring"
+         width="88"
+         height="31"
+         src="images/archaeoring_button3.gif" />
+  </a>
+  <br>
   <a href="https://webring.archaeo.social/previous?host=bjorns.website">←</a>
-  <a href="https://webring.archaeo.social/">Archaeoring</a> | <a href="https://webring.archaeo.social/random">Random</a>
+  <a href="https://webring.archaeo.social/random">Random</a>
   <a href="https://webring.archaeo.social/next?host=bjorns.website">→</a>
 </p>
 

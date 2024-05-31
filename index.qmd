@@ -60,7 +60,7 @@ listing:
 
 <h3 class=subtitle><span id="word"></span></br> ~~Extra~~ordinaire</h3>
 
-I'm a PhD student in Archaeology working to learn more about what people
+I'm a PhD in Archaeology working to learn more about what people
 ate in the past, using methods from archaeology and oral microbiology.
 I'm dedicated to keeping my research and findings accessible, transparent,
 and reproducible. I enjoy exploring different ways to communicate my findings,
@@ -109,7 +109,7 @@ nocite: |
 
 ## Education {#education-section}
 
-(current) PhD Bioarchaeology | Leiden University
+PhD Archaeological Science | Leiden University
 
 MSc Osteoarchaeology | Leiden University
 

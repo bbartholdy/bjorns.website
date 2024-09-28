@@ -27,4 +27,10 @@ $border-color: $font-color;
 .about-link {
     border-color: $font-color !important;
     color: $font-color !important;
+    font-size: 1em !important;
+}
+
+.about-link:hover {
+    border-color: $link-color !important;
+    color: $link-color !important;
 }

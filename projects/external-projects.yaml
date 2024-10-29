@@ -8,8 +8,15 @@
 - title: "teethr"
   description: |
     An R package for tooth stuff.
+  image: https://cran.r-project.org/Rlogo.svg
   path: https://github.com/bbartholdy/teethr
   categories: [dental, R package, academic]
+- title: "RchaeoStats"
+  description: |
+    Openly available teaching materials on R and Statistics.
+  image: https://github.com/rchaeology/RchaeoStats/blob/main/images/hexsticker.png?raw=true
+  path: https://rchaeology.github.io/RchaeoStats
+  categories: [R, teaching, academic]
 - title: "The Bioarchaeologist's Guide"
   description: |
     A website with resources for bioarchaeologists, with

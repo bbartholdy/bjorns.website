@@ -6,6 +6,9 @@ about:
   template: jolla
   image: "images/avatar.jpg"
   links: 
+    - href: https://codeberg.org/bbartholdy
+      text: <i class="nf nf-linux-codeberg"></i> Codeberg
+      aria-label: Codeberg
     - icon: github
       href: https://github.com/bbartholdy
       text: GitHub

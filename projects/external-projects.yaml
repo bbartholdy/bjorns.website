@@ -1,3 +1,9 @@
+- title: "Leiden University Open Science Survey"
+  description: |
+    A survey conducted at Leiden University in collaboration with Open Science Community Leiden and Academia in Motion.
+  image: https://codeberg.org/bbartholdy/os-survey-unileiden/raw/branch/main/images/comb-logo.png
+  path: https://websaur.shinyapps.io/osSurveyLeiden/
+  categories: [Open Science, academic]
 - title: "PhD dissertation"
   description: |
     My somewhat alternative PhD disseration. The content is pretty conventional,
